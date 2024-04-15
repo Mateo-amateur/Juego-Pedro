@@ -1,0 +1,41 @@
+body{
+    background-color: #00f;
+    margin: 0;
+}
+
+.barra_total{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: auto;
+    background: #fff;
+    -ms-flex-align: center;
+}
+
+.barra_sup{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+}
+
+.logo{
+    height: 8vh;
+    margin: 1vh;
+    box-sizing: border-box;
+}
+
+.text{
+    margin: 5px 0;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.boton_info{
+    height: 30px;
+    width: 30px;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 5px;
+    box-sizing: border-box;
+}
